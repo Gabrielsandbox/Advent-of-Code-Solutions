@@ -29,13 +29,13 @@ temperature = np.zeros(len(seeds))
 humidity = np.zeros(len(seeds))
 location = np.zeros(len(seeds))
 
-humidity_to_location = pd.read_csv(r'C:\Users\Gabriel Marinho\OneDrive\Área de Trabalho\fun\AoC\humidity-to-location.csv', sep = ';')
-temperature_to_humidity = pd.read_csv(r'C:\Users\Gabriel Marinho\OneDrive\Área de Trabalho\fun\AoC\temperature-to-humidity.csv', sep = ';')
-light_to_temperature = pd.read_csv(r'C:\Users\Gabriel Marinho\OneDrive\Área de Trabalho\fun\AoC\light-to-temperature.csv', sep = ';')
-water_to_light = pd.read_csv(r'C:\Users\Gabriel Marinho\OneDrive\Área de Trabalho\fun\AoC\water-to-light.csv', sep = ';')
-fertilizer_to_water = pd.read_csv(r'C:\Users\Gabriel Marinho\OneDrive\Área de Trabalho\fun\AoC\fertilizer-to-water.csv', sep = ';')
-soil_to_fertilizer = pd.read_csv(r'C:\Users\Gabriel Marinho\OneDrive\Área de Trabalho\fun\AoC\soil-to-fertilizer.csv', sep = ';')
-seed_to_soil = pd.read_csv(r'C:\Users\Gabriel Marinho\OneDrive\Área de Trabalho\fun\AoC\seed-to-soil.csv', sep = ';')
+humidity_to_location = pd.read_csv(r'C:\humidity-to-location.csv', sep = ';')
+temperature_to_humidity = pd.read_csv(r'C:\temperature-to-humidity.csv', sep = ';')
+light_to_temperature = pd.read_csv(r'C:\light-to-temperature.csv', sep = ';')
+water_to_light = pd.read_csv(r'C:\water-to-light.csv', sep = ';')
+fertilizer_to_water = pd.read_csv(r'C:\fertilizer-to-water.csv', sep = ';')
+soil_to_fertilizer = pd.read_csv(r'C:\soil-to-fertilizer.csv', sep = ';')
+seed_to_soil = pd.read_csv(r'C:\seed-to-soil.csv', sep = ';')
 
 
 # seed-to-soil
